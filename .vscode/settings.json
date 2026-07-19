@@ -1,0 +1,8 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+  "python.terminal.activateEnvironment": true,
+  "jupyter.kernels.excludePythonEnvironments": [
+    "c:\\Python312-32\\python.exe",
+    "C:\\Users\\tys.iwasawa2\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+  ]
+}
