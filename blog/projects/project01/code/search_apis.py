@@ -10,11 +10,22 @@ load_dotenv(_CODE_DIR / ".env")
 load_dotenv(Path.cwd() / ".env")
 
 
+def _to_result_list(organic_results):
+    return [
+        {
+            "title": result.get("title", ""),
+            "link": result.get("link", ""),
+            "snippet": result.get("snippet", ""),
+        }
+        for result in organic_results
+    ]
+
+
 def get_book_price_scrape_do(book_title):
     token = os.getenv("SCRAPE_DO_TOKEN")
     if not token:
         print('".env" を設定してください。".env.example"を参照')
-        return
+        return []
 
     params = {
         "token": token,
@@ -28,28 +39,14 @@ def get_book_price_scrape_do(book_title):
     response = requests.get(url, params=params)
     data = response.json()
 
-    organic_results = data.get("organic_results", [])
-    if not organic_results:
-        print("No results found.")
-        return []
-
-    for result in organic_results:
-        title = result.get("title", "")
-        link = result.get("link", "")
-        snippet = result.get("snippet", "")
-
-        print(f"Title: {title}")
-        print(f"Link: {link}")
-        print(f"Snippet: {snippet}\n")
-
-    return organic_results
+    return _to_result_list(data.get("organic_results", []))
 
 
 def get_book_price_serpapi(book_title):
     api_key = os.getenv("SERPAPI_API_KEY")
     if not api_key:
         print('".env" を設定してください。".env.example"を参照')
-        return
+        return []
 
     params = {
         "api_key": api_key,
@@ -63,28 +60,14 @@ def get_book_price_serpapi(book_title):
     response = requests.get(url, params=params)
     data = response.json()
 
-    organic_results = data.get("organic_results", [])
-    if not organic_results:
-        print("No results found.")
-        return []
-
-    for result in organic_results:
-        title = result.get("title", "")
-        link = result.get("link", "")
-        snippet = result.get("snippet", "")
-
-        print(f"Title: {title}")
-        print(f"Link: {link}")
-        print(f"Snippet: {snippet}\n")
-
-    return organic_results
+    return _to_result_list(data.get("organic_results", []))
 
 
 def get_book_price_valueserp(book_title):
     api_key = os.getenv("VALUESERP_API_KEY")
     if not api_key:
         print('".env" を設定してください。".env.example"を参照')
-        return
+        return []
 
     params = {
         "api_key": api_key,
@@ -98,18 +81,4 @@ def get_book_price_valueserp(book_title):
     response = requests.get(url, params=params)
     data = response.json()
 
-    organic_results = data.get("organic_results", [])
-    if not organic_results:
-        print("No results found.")
-        return []
-
-    for result in organic_results:
-        title = result.get("title", "")
-        link = result.get("link", "")
-        snippet = result.get("snippet", "")
-
-        print(f"Title: {title}")
-        print(f"Link: {link}")
-        print(f"Snippet: {snippet}\n")
-
-    return organic_results
+    return _to_result_list(data.get("organic_results", []))
