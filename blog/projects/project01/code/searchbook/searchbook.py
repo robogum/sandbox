@@ -1,3 +1,7 @@
+import argparse
+import json
+import sys
+
 from .bookinfo import bookinfo
 from .search_apis import get_book_price_serpapi, get_book_price_scrape_do, get_book_price_valueserp
 
@@ -24,3 +28,28 @@ def searchbook(isbn: str, search_type: str = "serpapi"):
         return get_book_price_valueserp(title)
     else:
         raise ValueError(f"Invalid search type: {search_type}")
+
+def main(argv: list[str] | None = None) -> None:
+    parser = argparse.ArgumentParser(description="ISBNから本の相場を検索する")
+    parser.add_argument("isbn", help="ISBNコード")
+    parser.add_argument(
+        "-t",
+        "--type",
+        dest="search_type",
+        default="serpapi",
+        choices=["serpapi", "scrape_do", "valueserp"],
+        help="検索サービス (default: serpapi)",
+    )
+    args = parser.parse_args(argv)
+
+    try:
+        results = searchbook(args.isbn, args.search_type)
+    except (LookupError, TimeoutError, ValueError) as e:
+        print(e, file=sys.stderr)
+        sys.exit(1)
+
+    print(json.dumps(results, ensure_ascii=False, indent=2))
+
+
+if __name__ == "__main__":
+    main()
