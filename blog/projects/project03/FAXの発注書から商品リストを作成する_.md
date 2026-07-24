@@ -43,3 +43,7 @@ FAXの注文書の中の注文商品の表の中から、「商品名」と「�
 ・FAXデータのページを分割して結果を検証する。
 
 商品名の抽出は、約8割位が正解でした。
+
+今回は不採用でしたが、下記は、商品名を比較するコード
+[商品名の比較](https://github.com/robogum/sandbox/blob/main/blog/projects/project03/code/match.ipynb)
+
