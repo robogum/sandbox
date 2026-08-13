@@ -2,13 +2,18 @@
 
 ## 今後見る予定(見てる途中)
 
-| タイトル |
-|---|
-| PSYCHO-PAS | 
-| 魔法科高校の劣等生 四葉継承編 |
-| GUNSLINGER GIRL -IL TEATRINO- |
-| DARKER THAN BLACK -黒の契約者- |
-| STEINS GATE |
+| タイトル | ひとこと |
+|---|---|
+| 16bitセンセーション | 「STEINS GATE」を見たら思い出した。 |
+| イカ娘 | スフィアが好きなので |
+| みなみけ | |
+| それでも町はまわっている | |
+| ハイスコアガール | |
+| だがしかし | 視聴中・一気見するような作品ではないので。|
+| PSYCHO-PAS | 長いので、手が出せない |
+| 魔法科高校の劣等生 四葉継承編 | |
+| DARKER THAN BLACK -黒の契約者- | |
+| STEINS GATE | 視聴中 |
 
 
 
@@ -16,6 +21,7 @@
 
 | タイトル |
 |---|
+| [GUNSLINGER GIRL -IL TEATRINO-](ttps://robogum.blogspot.com/2026/07/gunslinger-girl.html) |
 | [魔法科高校の優等生](https://robogum.blogspot.com/2026/07/blog-post_940.html) |
 | [ようこそ実力主義の教室へ](https://robogum.blogspot.com/2026/07/blog-post_792.html) |
 | [僕だけがいない街](https://robogum.blogspot.com/2026/07/blog-post_736.html) |
