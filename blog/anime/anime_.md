@@ -4,7 +4,7 @@
 
 | タイトル | ひとこと |
 |---|---|
-| 16bitセンセーション | 「STEINS GATE」を見たら思い出した。 |
+| 16bitセンセーション | 「STEINS;GATE」を見たら思い出した。 |
 | イカ娘 | スフィアが好きなので |
 | みなみけ | |
 | それでも町はまわっている | |
@@ -13,7 +13,6 @@
 | PSYCHO-PAS | 長いので、手が出せない |
 | 魔法科高校の劣等生 四葉継承編 | |
 | DARKER THAN BLACK -黒の契約者- | |
-| STEINS GATE | 視聴中 |
 
 
 
@@ -21,6 +20,7 @@
 
 | タイトル |
 |---|
+| [STEINS;GATE](https://robogum.blogspot.com/2026/08/steinsgate.html) |
 | [GUNSLINGER GIRL -IL TEATRINO-](ttps://robogum.blogspot.com/2026/07/gunslinger-girl.html) |
 | [魔法科高校の優等生](https://robogum.blogspot.com/2026/07/blog-post_940.html) |
 | [ようこそ実力主義の教室へ](https://robogum.blogspot.com/2026/07/blog-post_792.html) |
