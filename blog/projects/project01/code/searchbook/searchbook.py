@@ -20,6 +20,8 @@ def searchbook(isbn: str, search_type: str = "serpapi"):
 
     title, author = bookinfo(isbn)
 
+    print(f"ISBN: {isbn}, Title: {title}, Author: {author}")
+
     if search_type == "serpapi":
         return get_book_price_serpapi(title)
     elif search_type == "scrape_do":
