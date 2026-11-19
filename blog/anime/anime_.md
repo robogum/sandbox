@@ -20,6 +20,7 @@
 
 |No| タイトル |
 |---|---|
+|12| [氷菓](https://robogum.blogspot.com/2026/11/blog-post.html)|
 |11| [PSYCHO-PAS]() |
 |10| [だがしかし]() |
 |09| [STEINS;GATE](https://robogum.blogspot.com/2026/08/steinsgate.html) |
