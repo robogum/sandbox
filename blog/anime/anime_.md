@@ -9,8 +9,6 @@
 | みなみけ | |
 | それでも町はまわっている | |
 | ハイスコアガール | |
-| だがしかし | 視聴中・一気見するような作品ではないので。|
-| PSYCHO-PAS | ２を視聴中 |
 | 魔法科高校の劣等生 四葉継承編 | |
 | DARKER THAN BLACK -黒の契約者- | |
 
@@ -21,8 +19,8 @@
 |No| タイトル |
 |---|---|
 |12| [氷菓](https://robogum.blogspot.com/2026/11/blog-post.html)|
-|11| [PSYCHO-PAS]() |
-|10| [だがしかし]() |
+|11| [PSYCHO-PAS](https://robogum.blogspot.com/2026/11/psycho-pass.html) |
+|10| [だがしかし](https://robogum.blogspot.com/2026/11/blog-post_23.html) |
 |09| [STEINS;GATE](https://robogum.blogspot.com/2026/08/steinsgate.html) |
 |08| [魔法科高校の優等生](https://robogum.blogspot.com/2026/07/blog-post_940.html) |
 |07| [ようこそ実力主義の教室へ](https://robogum.blogspot.com/2026/07/blog-post_792.html) |
